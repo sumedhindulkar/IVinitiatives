@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    padding: 80px ;
+}
+#plant{
+    animation: plant 1.5s ease ;
+}
+#msgBox4{
+    animation: msgBox 1.5s ease;
+}
+#msgBox3{
+    animation: msgBox 1s ease;
+}
+#msgBox5{
+    animation: plant 2.5s ease;
+}
+#msgBox2{
+    animation: msgBox 2s ease;
+}
+#msgBox1{
+    animation: msgBox 2.5s ease;
+}
+#women{
+    animation: msgBox 2.7s ease ;
+}
+@keyframes plant{
+    from{
+        transform: translateX(400px);
+    }
+    to{
+        transform:  translateX(0);
+    }
+}
+@keyframes msgBox{
+    from{
+        transform: translateY(-500px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
